@@ -1,0 +1,87 @@
+LIBRAFT   1658994835418086407 src/recv_request_vote.c:35 self:3 from:5@10.0.5.3:9000 candidate_id:5 disrupt_leader:0 last_log_index:58 last_log_term:6 pre_vote:1 term:7
+LIBRAFT   1658994835418097440 src/election.c:199 local server is not voting -> not granting vote
+LIBRAFT   1658994835418103625 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994836739843398 src/recv_request_vote.c:35 self:3 from:1@10.0.1.3:9000 candidate_id:1 disrupt_leader:0 last_log_index:1 last_log_term:1 pre_vote:1 term:7
+LIBRAFT   1658994836739853316 src/election.c:199 local server is not voting -> not granting vote
+LIBRAFT   1658994836739939565 src/uv_send.c:213 no connection available -> enqueue message
+LIBRAFT   1658994836739950740 src/recv_request_vote.c:35 self:3 from:1@10.0.1.3:9000 candidate_id:1 disrupt_leader:0 last_log_index:1 last_log_term:1 pre_vote:1 term:7
+LIBRAFT   1658994836739953277 src/election.c:199 local server is not voting -> not granting vote
+LIBRAFT   1658994836739956386 src/uv_send.c:213 no connection available -> enqueue message
+LIBRAFT   1658994836739961058 src/recv_request_vote.c:35 self:3 from:1@10.0.1.3:9000 candidate_id:1 disrupt_leader:0 last_log_index:1 last_log_term:1 pre_vote:1 term:7
+LIBRAFT   1658994836739963132 src/election.c:199 local server is not voting -> not granting vote
+LIBRAFT   1658994836739965475 src/uv_send.c:213 no connection available -> enqueue message
+LIBRAFT   1658994836739975473 src/recv_request_vote.c:35 self:3 from:1@10.0.1.3:9000 candidate_id:1 disrupt_leader:0 last_log_index:1 last_log_term:1 pre_vote:1 term:7
+LIBRAFT   1658994836739977672 src/election.c:199 local server is not voting -> not granting vote
+LIBRAFT   1658994836739980009 src/uv_send.c:213 no connection available -> enqueue message
+LIBRAFT   1658994836739984690 src/recv_request_vote.c:35 self:3 from:1@10.0.1.3:9000 candidate_id:1 disrupt_leader:0 last_log_index:1 last_log_term:1 pre_vote:1 term:7
+LIBRAFT   1658994836739986721 src/election.c:199 local server is not voting -> not granting vote
+LIBRAFT   1658994836739988912 src/uv_send.c:213 no connection available -> enqueue message
+LIBRAFT   1658994837073881879 src/uv_send.c:279 connect attempt completed -> status unknown error
+LIBRAFT   1658994837073891460 src/uv_send.c:237 send pending messages
+LIBRAFT   1658994837073894020 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994837073897966 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994837073900677 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994837073903219 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994837073905563 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994837122332718 src/recv_request_vote.c:35 self:3 from:1@10.0.1.3:9000 candidate_id:1 disrupt_leader:0 last_log_index:1 last_log_term:1 pre_vote:1 term:7
+LIBRAFT   1658994837122340926 src/election.c:199 local server is not voting -> not granting vote
+LIBRAFT   1658994837122346127 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994837140436329 src/recv_request_vote.c:35 self:3 from:5@10.0.5.3:9000 candidate_id:5 disrupt_leader:0 last_log_index:58 last_log_term:6 pre_vote:1 term:7
+LIBRAFT   1658994837140443641 src/election.c:199 local server is not voting -> not granting vote
+LIBRAFT   1658994837140449696 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994837327457494 src/recv_request_vote.c:35 self:3 from:5@10.0.5.3:9000 candidate_id:5 disrupt_leader:0 last_log_index:58 last_log_term:6 pre_vote:0 term:7
+LIBRAFT   1658994837327468927 src/recv.c:127 remote term 7 is higher than 5 -> bump local term
+LIBRAFT   1658994837353934804 src/recv_request_vote.c:92 no pre_vote: current_term:7 term:7
+LIBRAFT   1658994837353942841 src/election.c:199 local server is not voting -> not granting vote
+LIBRAFT   1658994837353953515 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994837676506323 src/recv_append_entries.c:37 self:3 from:5@10.0.5.3:9000 leader_commit:52 n_entries:0 prev_log_index:58 prev_log_term:6, term:7
+LIBRAFT   1658994837676518703 src/replication.c:944 no entry at index 58 -> reject
+LIBRAFT   1658994837676523803 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994837719267379 src/recv_append_entries.c:37 self:3 from:5@10.0.5.3:9000 leader_commit:52 n_entries:0 prev_log_index:58 prev_log_term:6, term:7
+LIBRAFT   1658994837719279740 src/replication.c:944 no entry at index 58 -> reject
+LIBRAFT   1658994837719300735 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994837719350647 src/recv_append_entries.c:37 self:3 from:5@10.0.5.3:9000 leader_commit:52 n_entries:0 prev_log_index:58 prev_log_term:6, term:7
+LIBRAFT   1658994837719357072 src/replication.c:944 no entry at index 58 -> reject
+LIBRAFT   1658994837719361191 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994837719369208 src/recv_append_entries.c:37 self:3 from:5@10.0.5.3:9000 leader_commit:52 n_entries:0 prev_log_index:58 prev_log_term:6, term:7
+LIBRAFT   1658994837719371807 src/replication.c:944 no entry at index 58 -> reject
+LIBRAFT   1658994837719374547 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994837815036141 src/recv_append_entries.c:37 self:3 from:5@10.0.5.3:9000 leader_commit:52 n_entries:3 prev_log_index:55 prev_log_term:6, term:7
+LIBRAFT   1658994837815061313 src/replication.c:958 previous term mismatch -> reject
+LIBRAFT   1658994837815074232 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994837981655362 src/recv_append_entries.c:37 self:3 from:5@10.0.5.3:9000 leader_commit:52 n_entries:4 prev_log_index:54 prev_log_term:6, term:7
+LIBRAFT   1658994837981669086 src/replication.c:958 previous term mismatch -> reject
+LIBRAFT   1658994837981678668 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994838024343289 src/recv_append_entries.c:37 self:3 from:5@10.0.5.3:9000 leader_commit:52 n_entries:5 prev_log_index:54 prev_log_term:6, term:7
+LIBRAFT   1658994838024353678 src/replication.c:958 previous term mismatch -> reject
+LIBRAFT   1658994838024360418 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994838108118873 src/recv_append_entries.c:37 self:3 from:5@10.0.5.3:9000 leader_commit:52 n_entries:6 prev_log_index:53 prev_log_term:6, term:7
+LIBRAFT   1658994838108130205 src/replication.c:958 previous term mismatch -> reject
+LIBRAFT   1658994838108136907 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994838267525190 src/recv_append_entries.c:37 self:3 from:5@10.0.5.3:9000 leader_commit:52 n_entries:8 prev_log_index:52 prev_log_term:6, term:7
+LIBRAFT   1658994838267564035 src/replication.c:958 previous term mismatch -> reject
+LIBRAFT   1658994838267588759 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994838309164337 src/recv_append_entries.c:37 self:3 from:5@10.0.5.3:9000 leader_commit:52 n_entries:9 prev_log_index:51 prev_log_term:6, term:7
+LIBRAFT   1658994838309175916 src/replication.c:958 previous term mismatch -> reject
+LIBRAFT   1658994838309183407 src/uv_send.c:218 connection available -> write message
+LIBRAFT   1658994838417116772 src/recv_append_entries.c:37 self:3 from:5@10.0.5.3:9000 leader_commit:52 n_entries:10 prev_log_index:50 prev_log_term:5, term:7
+LIBRAFT   1658994838417153258 src/replication.c:997 log mismatch -> truncate (51)
+LIBRAFT   1658994838417168742 src/membership.c:154 roll back membership
+LIBRAFT   1658994838417212888 src/configuration.c:342 roll back config
+LIBRAFT   1658994838417221633 src/configuration.c:343 === CONFIG START ===
+LIBRAFT   1658994838417231000 src/configuration.c:348 id:1 address:10.0.2.3:9000 role:1
+LIBRAFT   1658994838417239279 src/configuration.c:348 id:2 address:10.0.1.3:9000 role:1
+LIBRAFT   1658994838417246760 src/configuration.c:348 id:3 address:10.0.3.3:9000 role:1
+LIBRAFT   1658994838417253938 src/configuration.c:348 id:5 address:10.0.5.3:9000 role:1
+LIBRAFT   1658994838417261080 src/configuration.c:348 id:4 address:10.0.4.3:9000 role:1
+LIBRAFT   1658994838417267359 src/configuration.c:350 === CONFIG END ===
+LIBRAFT   1658994838417406251 src/uv_prepare.c:164 create open segment open-4
+LIBRAFT   1658994838417384637 src/uv_finalize.c:39 finalize open-1 into 0000000000000002-0000000000000055
+LIBRAFT   1658994838417526656 src/uv_finalize.c:68 truncate segment open-1: open: no such file or directory
+LIBRAFT   1658994838490919614 src/uv_prepare.c:230 completed creation of open-4
+LIBRAFT   1658994838490979311 src/uv_list.c:92 segment 0000000000000001-0000000000000001
+LIBRAFT   1658994838490990190 src/uv_list.c:97 ignore corrupt-1658994799882402170-0000000000000002-0000000000000010
+LIBRAFT   1658994838490993366 src/uv_list.c:71 ignore metadata1
+LIBRAFT   1658994838490995630 src/uv_list.c:71 ignore metadata2
+LIBRAFT   1658994838491002430 src/uv_list.c:92 segment open-4
+server: src/uv_truncate.c:58: void uvTruncateWorkCb(uv_work_t *): Assertion `i < n_segments' failed.
